@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+    <title>Poirier_Lab3</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js"></script>
+</head>
+<body>
+    <h1>Shaine Poirier Lab 3</h1>
+    <div id="map"></div>
+
+    <script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCJoS8b_j2dbtLRBNHhHlc--iHDnC1s8AU&loading=async&callback=initMap">
+    </script>
+    <!-- Buttons to move the map to different locations to show traffic, transit, and bicycle routes-->
+    <div>
+        <button onclick="TransitToronto()">Toronto Transit Routes</button>
+        <button onclick="BicycleBarrie()">Barrie Bicycle Routes</button>
+        <button onclick="TrafficLondon()">London Traffic Routes</button>
+    </div>
+</body>
+</html>
